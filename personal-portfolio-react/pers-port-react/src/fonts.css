@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Metal+Mania&family=New+Rocker&family=Philosopher&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+.doto-dot {
+  font-family: 'Doto', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: 'ROND' 0;
+}
+
+.metal-mania-regular {
+  font-family: 'Metal Mania', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.new-rocker-regular {
+  font-family: 'New Rocker', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.philosopher-regular {
+  font-family: 'Philosopher', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pixelify-sans-san {
+  font-family: 'Pixelify Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.press-start-2p-regular {
+  font-family: 'Press Start 2P', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-bar {
+  font-family: 'Doto', sans-serif;
+}
+
+.about-me {
+  font-family: 'Pixelify sans';
+}
+
+p {
+  font-family: 'Philosopher';
+}
+
+.weather {
+  background-image: url('./src/assets/weather-pic.webp');
+}
+
+.bookshelf {
+  background-image: url('./src/assets/bookshelf.avif');
+}
+
+.space {
+  background-image: url('./assets/space.jpeg');
+}
+
+.dino {
+  background-image: url('./assets/dino-404.jpg');
+}

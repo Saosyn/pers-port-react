@@ -1,10 +1,11 @@
 import '../index.css';
+import '../fonts.css';
 
 export default function AboutPage() {
   return (
-    <body className="bg-indigo-500 h-screen">
+    <body className="bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400 h-screen">
       <img href="../assets/me-pic.jpg" />
-      <h1 className="text-center p-12 text-4xl">A little about me</h1>
+      <h1 className="about-me text-center p-12 text-4xl">A little about me</h1>
       <div className="px-40 text-center text-lg">
         <p>
           Hello! I&apos;m a dynamic and detail-oriented professional with over a
