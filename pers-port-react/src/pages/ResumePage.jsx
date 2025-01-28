@@ -8,7 +8,7 @@ export default function ResumePage() {
         <Worker
           workerUrl={`https://unpkg.com/pdfjs-dist@3.5.141/build/pdf.worker.min.js`}
         >
-          <Viewer fileUrl="/pers-port-react/public/Ehli-Resume.pdf" />
+          <Viewer fileUrl="/Ehli-Resume.pdf" />
         </Worker>
       </div>
     </div>

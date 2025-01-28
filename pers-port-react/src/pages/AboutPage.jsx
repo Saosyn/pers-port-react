@@ -1,19 +1,21 @@
 import '../index.css';
 import '../fonts.css';
+import myImg from '../assets/me-pic.jpg';
 
 export default function AboutPage() {
   return (
     <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400 min-h-screen flex flex-col items-center">
-      <h1 className="about-me text-center p-12 text-4xl text-white">
+      <h1 className="about-me text-center p-12 text-4xl text-white capitalize">
         A little about me
       </h1>
       <div className="flex flex-col items-center">
         {/* Circular Image */}
         <div className="w-40 h-40 mb-8">
           <img
-            src="/pers-port-react/public/me-pic.jpg"
-            alt="My Picture"
+            src={myImg}
+            alt="picture of me"
             className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
+            // style={{ backgroundImage: "url('../assets/me-pic.jpg')" }}
           />
         </div>
         {/* About Me Text */}

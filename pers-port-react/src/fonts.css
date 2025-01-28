@@ -70,3 +70,7 @@ p {
 .calc {
   background-image: url('./assets/financial-calculatorL.png');
 }
+
+.me-pic {
+  background-image: url('./assets/me-pic.jpg');
+}
