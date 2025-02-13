@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 // import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
+import Footer from './components/Footer';
 // import ErrorPage from './pages/ErrorPage';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

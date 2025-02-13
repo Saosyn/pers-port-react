@@ -2,8 +2,8 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import { Link } from 'react-router-dom';
-import './index.css'; // Tailwind and custom styles
-import './fonts.css';
+import '../index.css'; // Tailwind and custom styles
+import '../fonts.css';
 
 // Navbar component
 export default function Navbar() {
