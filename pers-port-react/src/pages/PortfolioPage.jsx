@@ -3,21 +3,21 @@ export default function PortfolioPage() {
     <body className="bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400 h-screen">
       <div className="grid grid-flow-col justify-around py-12">
         <button
-          className="weather object-contain bg-red-500 hover:bg-red-400 w-60 h-60 justify-self-auto"
+          className="weather object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
               'https://saosyn.github.io/Under-construction/')
           }
         ></button>
         <button
-          className="bookshelf object-contain bg-red-500 hover:bg-red-400 w-60 h-60 justify-self-auto"
+          className="bookshelf object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
               'https://saosyn.github.io/Under-construction/')
           }
         ></button>
         <button
-          className="space bg-red-500 hover:bg-red-400 w-60 h-60 justify-self-auto"
+          className="space object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
               'https://saosyn.github.io/Under-construction/')
@@ -26,21 +26,21 @@ export default function PortfolioPage() {
       </div>
       <div className="grid grid-flow-col justify-around py-12">
         <button
-          className="calc bg-contain bg-red-500 hover:bg-red-400 w-60 h-60 justify-self-auto"
+          className="calc bg-contain object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
               'https://saosyn.github.io/Bearded-Bros-Breakdown-for-Better-Budgeting/')
           }
         ></button>
         <button
-          className="dino bg-contain bg-red-500 hover:bg-red-400 w-60 h-60 justify-self-auto"
+          className="dino bg-contain object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
               'https://saosyn.github.io/Under-construction/')
           }
         ></button>
         <button
-          className="dino bg-contain bg-red-500 hover:bg-red-400 w-60 h-60 justify-self-auto"
+          className="dino bg-contain object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
               'https://saosyn.github.io/Under-construction/')
