@@ -6,14 +6,14 @@ export default function PortfolioPage() {
           className="weather object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
-              'https://saosyn.github.io/Under-construction/')
+              'https://https://zero9-weather-app.onrender.com//')
           }
         ></button>
         <button
           className="bookshelf object-contain w-60 h-60 justify-self-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 "
           onClick={() =>
             (window.location.href =
-              'https://saosyn.github.io/Under-construction/')
+              'https://https://whats-on-your-shelf.onrender.com//')
           }
         ></button>
         <button
